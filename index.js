@@ -21,8 +21,8 @@ function randomGrid() {
 }
 
 // When the mouse gets near the button, 
-// move the children from its current grid square to a new random square
-youShallNotPass.addEventListener('mouseenter', (e) => {
+// move the button from its current grid square to a new random square
+youShallNotPass.addEventListener('mouseenter', () => {
     let oldP = div.parentElement;
 
     let gridNum = oldP.id;
@@ -33,7 +33,7 @@ youShallNotPass.addEventListener('mouseenter', (e) => {
     moveButton(oldP, gridNum);
 });
 
-// If the button is clicked, display how long it took (time since page load)
+// If the button is clicked, display how long it took to click it (time since page load)
 function Clicked() {
     const now = time()
     let diff = now - timeOnLoad;
