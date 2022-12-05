@@ -1,5 +1,5 @@
 ## Press Me
-### Create a Useless Hack - GHW Oct 2022
+### Create a Useless Hack
 
 Press Me is a fun, and *usesless*, project made on Day 2 of [Global Hack Week](https://ghw.mlh.io/oct) for the Create a Useless Hack challenge.
 
